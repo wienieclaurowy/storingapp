@@ -1,15 +1,15 @@
-<?php require_once '../../../config/config.php'; ?>
+<?php require_once __DIR__.'/../../../config/config.php'; ?>
 <!doctype html>
 <html lang="nl">
 
 <head>
     <title>StoringApp / Meldingen</title>
-    <?php require_once '../components/head.php'; ?>
+    <?php require_once __DIR__.'/../components/head.php'; ?>
 </head>
 
 <body>
 
-    <?php require_once '../components/header.php'; ?>
+    <?php require_once __DIR__.'/../components/header.php'; ?>
 
     <div class="container">
         <h1>Meldingen</h1>
